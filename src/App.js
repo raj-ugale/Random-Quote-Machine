@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-// A small set of quotes (basic is fine for FCC tests)
+// A small set of quotes 
 const quotesData = [
   { text: "Be the change that you wish to see in the world.", author: "Mahatma Gandhi" },
   { text: "Arise, awake, and stop not till the goal is reached.", author: "Swami Vivekananda" },
@@ -38,24 +38,24 @@ const gradients = [
   },
   {
     background: "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
-    colors: ["#11998e", "#38ef7d"]   // fresh green tones
+    colors: ["#11998e", "#38ef7d"]   
   },
   
   {
     background: "linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%)",
-    colors: ["#ff416c", "#ff4b2b"]   // stronger pink-red
+    colors: ["#ff416c", "#ff4b2b"]   
   },
   {
     background: "linear-gradient(135deg, #373b44 0%, #4286f4 100%)",
-    colors: ["#373b44", "#4286f4"]   // dark gray-blue with vibrant blue
+    colors: ["#373b44", "#4286f4"]  
   },
   {
   background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-  colors: ["#667eea", "#764ba2"]   // violet → purple (calm, readable)
+  colors: ["#667eea", "#764ba2"]   
   },
   {
     background: "linear-gradient(135deg, #ff6a00 0%, #ee0979 100%)",
-    colors: ["#ff6a00", "#ee0979"]   // orange → magenta (bold, energetic)
+    colors: ["#ff6a00", "#ee0979"]   
   }
 ];
 
@@ -108,7 +108,7 @@ export default function App() {
             aria-label="Tweet this quote"
             style={{ backgroundColor: themeColor }}
           >
-            {/* SVG stays same */}
+            {/* SVG for tweeter icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
